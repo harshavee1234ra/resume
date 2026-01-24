@@ -319,7 +319,7 @@ const ResumeBuilder: React.FC<ResumeBuilderProps> = ({ onNavigate }) => {
       
     } catch (error) {
       console.error('Error generating AI content:', error);
-      alert('Failed to generate content. Please try again.');
+      setError(error.message || 'Failed to generate content. Please try again.');
     } finally {
       setIsGenerating(false);
     }
