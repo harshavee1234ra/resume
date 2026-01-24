@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Save, Download, Eye, EyeOff, Plus, Trash2, Upload, Palette, Type, Layout, Zap, FileText, User, Mail, Phone, MapPin, Globe, Linkedin, Calendar, Building, GraduationCap, Award, Code, Briefcase, Star, Camera, X, ChevronDown, ChevronUp, Loader2 } from 'lucide-react';
+import { Save, Download, Eye, EyeOff, Plus, Trash2, Upload, Palette, Type, LayoutGrid as Layout, Zap, FileText, User, Mail, Phone, MapPin, Globe, Linkedin, Calendar, Building, GraduationCap, Award, Code, Briefcase, Star, Camera, X, ChevronDown, ChevronUp, Loader2 } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { supabase } from '../lib/supabase';
 import { PDFGenerator } from '../lib/pdfGenerator';
